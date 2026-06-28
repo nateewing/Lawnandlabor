@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get a Free Quote | L&amp;J Lawn and Labor — Joplin, MO</title>
+<meta name="description" content="Request a free on-site quote from L&amp;J Lawn and Labor in Joplin, Missouri. Simple booking, honest pricing, and no job too big or small — we don't turn any job down.">
+<meta property="og:title" content="Get a Free Quote | L&amp;J Lawn and Labor">
+<meta property="og:description" content="Free on-site estimates for lawn care, clean-outs, and general labor in Joplin, MO.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-header" id="top">
+  <div class="container nav-wrap">
+    <a href="index.html" class="brand">
+      <img src="assets/logo.png" alt="L&amp;J Lawn and Labor logo" class="brand-logo">
+      <span class="brand-text">L&amp;J <em>Lawn &amp; Labor</em></span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="index.html#services">Services</a>
+      <a href="quoting.html" class="active">Get a Quote</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="#booking" class="btn btn-sm btn-accent nav-cta">Free Quote</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu" hidden>
+    <a href="index.html">Home</a>
+    <a href="index.html#services">Services</a>
+    <a href="quoting.html">Get a Quote</a>
+    <a href="index.html#contact">Contact</a>
+    <a href="tel:+15414098600" class="btn btn-accent">Call Now</a>
+  </div>
+</header>
+
+<!-- Page hero -->
+<section class="page-hero">
+  <div class="hero-stripes" aria-hidden="true"></div>
+  <div class="container">
+    <p class="eyebrow">Free, no-pressure estimates</p>
+    <h1>Tell us about the job</h1>
+    <p class="page-hero-sub">We come out, take a look, and give you an honest price — at no cost. <strong>We don't turn any job down.</strong></p>
+  </div>
+</section>
+
+<!-- How it works -->
+<section class="section" id="process">
+  <div class="container">
+    <header class="section-head">
+      <p class="eyebrow">How quoting works</p>
+      <h2>Four steps to done</h2>
+      <p class="section-lead">No guesswork and no surprises. Here's exactly what happens after you reach out.</p>
+    </header>
+    <ol class="steps">
+      <li class="step">
+        <span class="step-num">1</span>
+        <h3>Reach out</h3>
+        <p>Call, text, email, or fill out the form below. Tell us roughly what you need.</p>
+      </li>
+      <li class="step">
+        <span class="step-num">2</span>
+        <h3>We schedule a look</h3>
+        <p>We set a time that works for you and come see the property or project in person.</p>
+      </li>
+      <li class="step">
+        <span class="step-num">3</span>
+        <h3>Get an honest quote</h3>
+        <p>You get a clear, fair price on the spot or shortly after — free, with no obligation.</p>
+      </li>
+      <li class="step">
+        <span class="step-num">4</span>
+        <h3>We get to work</h3>
+        <p>Say the word and we put you on the schedule and knock the job out.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- Booking form + reassurance -->
+<section class="section section-alt" id="booking">
+  <div class="container booking-grid">
+    <div class="booking-form-wrap">
+      <h2>Request your free quote</h2>
+      <p class="form-intro">Fill this out and we'll get back to you fast. Prefer to talk? Call <a href="tel:+15414098600">(541) 409-8600</a> or <a href="tel:+14172913432">(417) 291-3432</a>.</p>
+
+      <form class="quote-form" id="quoteForm" action="https://formsubmit.co/lnjlawnandlabor1109@gmail.com" method="POST" novalidate>
+        <!-- FormSubmit settings -->
+        <input type="hidden" name="_subject" value="New free quote request — L&amp;J Lawn and Labor">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <div class="field-row">
+          <div class="field">
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" name="First name" autocomplete="given-name" required>
+          </div>
+          <div class="field">
+            <label for="lastName">Last name</label>
+            <input type="text" id="lastName" name="Last name" autocomplete="family-name" required>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="Phone number" autocomplete="tel" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="address">What's the project address?</label>
+          <input type="text" id="address" name="Project address" placeholder="Street, city — Joplin, MO or surrounding area" autocomplete="street-address" required>
+        </div>
+        <div class="field">
+          <label for="service">What services are you needing?</label>
+          <select id="service" name="Services needed" required>
+            <option value="" disabled selected>Choose a service…</option>
+            <option>Landscaping services</option>
+            <option>Junk removal</option>
+            <option>Moving services</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="timing">How soon are you needing our help?</label>
+          <select id="timing" name="Timeframe" required>
+            <option value="" disabled selected>Choose a timeframe…</option>
+            <option>As soon as possible</option>
+            <option>Within a few days</option>
+            <option>Within a couple weeks</option>
+            <option>This month</option>
+            <option>Just planning ahead</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-accent btn-lg btn-block">Send My Request</button>
+        <p class="form-note" id="formNote">We'll get back to you fast. Prefer to talk? Just call or text us.</p>
+      </form>
+    </div>
+
+    <aside class="reassure">
+      <h3>What you can count on</h3>
+      <ul class="reassure-list">
+        <li><strong>It's free.</strong> Estimates cost you nothing, ever.</li>
+        <li><strong>No pressure.</strong> A quote is just a quote — the decision is yours.</li>
+        <li><strong>Straight pricing.</strong> Fair, honest numbers with no hidden fees.</li>
+        <li><strong>Any size job.</strong> One small task or a full-day project, we're glad to help.</li>
+        <li><strong>Local &amp; dependable.</strong> Joplin neighbors who show up and follow through.</li>
+      </ul>
+      <div class="reassure-cta">
+        <p>Rather just call?</p>
+        <a href="tel:+15414098600" class="btn btn-outline btn-block">L — (541) 409-8600</a>
+        <a href="tel:+14172913432" class="btn btn-outline btn-block">J — (417) 291-3432</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="L&amp;J Lawn and Labor logo" class="footer-logo">
+      <p class="footer-slogan">Helping where we can.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="index.html#services">Lawn Care</a>
+      <a href="index.html#services">Clean-Outs</a>
+      <a href="index.html#services">General Labor</a>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="index.html#why">Why L&amp;J</a>
+      <a href="quoting.html">Get a Quote</a>
+      <a href="index.html#reviews">Reviews</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="tel:+15414098600">L — (541) 409-8600</a>
+      <a href="tel:+14172913432">J — (417) 291-3432</a>
+      <a href="mailto:lnjlawnandlabor1109@gmail.com">Email us</a>
+      <span class="footer-loc">Joplin, Missouri</span>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; <span id="year"></span> L&amp;J Lawn and Labor. All rights reserved.</p>
+  </div>
+</footer>
+
+<a href="tel:+15414098600" class="call-fab" aria-label="Call L&amp;J Lawn and Labor now">
+  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a13 13 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11 11 0 0 0 3.5.56 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.3a1 1 0 0 1 1 1 11 11 0 0 0 .56 3.5 1 1 0 0 1-.24 1l-2.02 2.3z" fill="currentColor"/></svg>
+  <span>Call Now</span>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
